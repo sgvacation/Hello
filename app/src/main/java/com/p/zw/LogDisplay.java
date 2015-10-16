@@ -1,4 +1,4 @@
-package com.ziwei;
+package com.p.zw;
 
 import android.util.Log;		// Testing purpose
 
