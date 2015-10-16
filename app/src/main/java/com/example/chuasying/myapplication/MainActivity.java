@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.p.zw.*;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -37,9 +38,13 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onFunction () {
-        int i ;
-        int j ;
+    public void onTesting () {
+        Palace   palace = new Palace();
+        Populator  populator = new Populator();
+
+        populator.setPalace(palace);
+        populator.testStub();
+
 
     }
 }
