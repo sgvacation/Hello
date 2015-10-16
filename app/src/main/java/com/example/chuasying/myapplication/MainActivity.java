@@ -39,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void onFunction () {
         int i ;
+        int j ;
 
     }
 }
