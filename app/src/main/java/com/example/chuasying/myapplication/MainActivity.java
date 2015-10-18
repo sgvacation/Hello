@@ -42,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
         Palace   palace = new Palace();
         Populator  populator = new Populator();
 
+        // Testing on the Object
         populator.setPalace(palace);
         populator.testStub();
 
